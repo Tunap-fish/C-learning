@@ -16,8 +16,9 @@ int main()
     int O[2] = {0};
     int X[2] = {0};
     int i, j;
+    int cnt = 9;
 
-    while (1)
+    for (cnt = 9; cnt > 0; cnt--)
     {   
         printf("Please input the position\n");
         scanf("%d %d", &i, &j);

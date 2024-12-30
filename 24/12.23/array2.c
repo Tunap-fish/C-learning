@@ -14,6 +14,9 @@
 //数组作为参数时
 //不能够在参数里写数组的长度
 //也不能在函数内部用sizeof（a)/sizeof（a[0]）来得到数组的长度
+
+
+//素数数组
 #include <stdio.h>
 
 int isprime(int x, int  new_prime[], int num);
