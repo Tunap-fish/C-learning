@@ -25,7 +25,7 @@
 #include <stdio.h>
 
 void f(int *p);
-void g(int k;);
+void g(int k);
 
 int main()
 {
