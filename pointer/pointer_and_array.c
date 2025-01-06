@@ -12,8 +12,8 @@ int main()
     int a[] = {24, 534, 6745, 3948, 5348, 1024, 2394, 1834, 1246, 29374, 19275};
     int max, min;
 
-    printf("main sizeof(a) = %zu\n", sizeof(a));
-    printf("main sizeof(a[0]) = %zu\n", sizeof(a[0]));
+    printf("main sizeof(a) = %lu\n", sizeof(a));
+    printf("main sizeof(a[0]) = %lu\n", sizeof(a[0]));
     max_min(a, sizeof(a)/sizeof(a[0]), &max, &min);
     printf("max = %d, min = %d\n", max, min);
 
@@ -25,7 +25,7 @@ void max_min(int a[], int total_variables, int *max, int *min)//a[] is a pointer
 //we can also write: int *a to replace int a[], then there is no error occurs
 {
     printf("a = %p\n", a);
-    printf("max_min sizeof(a) = %zu\n", sizeof(a));
+    printf("max_min sizeof(a) = %lu\n", sizeof(a));
     *max = a[0];
     *min = a[0];
     
