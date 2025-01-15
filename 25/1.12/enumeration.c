@@ -89,8 +89,8 @@ int main()
     }
     final_prize += pieces * prize[x]; 
     pieces = 0;
-    printf("Now you need to pay %d$", final_prize);
-    printf("would you like to buy another one?");
+    printf("Now you need to pay %d$\n", final_prize);
+    printf("would you like to buy another one?\ny");
     scanf("%s", choise);
     if (strcmp(YN[0], choise) == 0)
     {
