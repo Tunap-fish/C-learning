@@ -1,4 +1,4 @@
-//stechr and strrchr
+//strchr and strrchr
 //char * strchr(const char *s, int c);//start from left
 //char * strrchr(const char *s, int c);//start from right
 //int c represent the character you wish to find
